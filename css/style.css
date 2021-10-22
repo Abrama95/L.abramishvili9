@@ -1,0 +1,148 @@
+*{
+    font-family: 'Gochi Hand', cursive !important;  
+}
+/* header part style */
+.header-bg{
+    background-image: url(../images/group72.jpg);
+    width: 100%;
+    height: 324px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1089px;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: white;
+}
+.menu_wrap nav a {
+    margin: 0 25px;
+    color: white;
+}
+.menu_wrap nav {
+    margin: 0 -25px;
+}
+.menu_wrap nav a:first-child {
+    color: blue;
+}
+.menu_wrap nav img {
+    width: 14px;
+    height: 11px;
+    margin-left: 4px;    
+}
+.second-header-wrap{
+    width: 1089px;
+    margin: 0 auto;
+    margin-top: 97px; 
+}
+.second-header-wrap h2 {
+    font-size: 42px;
+    color: white;
+}
+.third-header-wrap{
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+.divider{
+   background-color: white;
+   width: 5px;
+    height: 20px;
+    margin: 0 11px;
+}
+
+/* section 1 style */
+.section-div {
+    display: flex;
+    margin-top: 50px;
+}
+.left-block{
+    width: 444px;
+    height: 388px;
+    margin-left: 139px;
+}
+.left-block h5 {
+    font-size: 14px;
+    color: blue;
+}
+.left-block h1 {
+    font-size: 42px;
+    color: black;
+}
+.left-block p {
+    color: green
+}
+
+
+
+/* section2 style */
+.bot-bg{
+    background-image: url(../images/section-image.jpg);
+    width: 100%;
+    height: 612px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-block{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+    
+}
+.block{
+    width: 260px;
+    height: 260px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 34px;
+}
+.block-flex-wraper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blue-icon{
+    width: 59px;
+    height: 58px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.block p {
+    width: 220px;
+    text-align: center;
+}
+.free-wifi{
+    text-align: center;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #000000;
+}
+.lorem-ipsum{
+    font-size: 14px;
+    color: #B1B1B1;
+    margin-top: 15px;
+    padding:0 10px;
+}
+.container-block h4 {
+    padding-top: 92px;
+    font-size: 15px;
+    color: blue;
+}
+.container-block h2 {
+    padding-top: 10px;
+    color: #FFFFFF;
+    max-width: 376px;
+    width: 100%;
+    font-size: 42px;  
+}

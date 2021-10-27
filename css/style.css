@@ -56,13 +56,23 @@
 
 /* section 1 style */
 .section-div {
+    max-width:1090px;
+    width: 100%;
+    margin: 0 auto;
+    height: 461px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 50px;
 }
 .left-block{
-    width: 444px;
+    max-width: 444px;
+    width: 100%;
     height: 388px;
-    margin-left: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
 }
 .left-block h5 {
     font-size: 14px;
@@ -75,8 +85,26 @@
 .left-block p {
     color: green
 }
+.button{
+    background-color: #5863F8;
+    width: 200px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 22px;
+    margin-top: 10px;
+}
+.button p {
+    color: white;
+}
 
-
+.right-block{
+    max-width: 536px;
+    width: 100%;
+    height: 461px;
+    
+}
 
 /* section2 style */
 .bot-bg{

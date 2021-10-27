@@ -1,0 +1,38 @@
+@media only screen and (max-width : 1200px) {
+    header nav a {
+        display: none;
+    }
+    header nav .menu {
+        display: block;
+    }
+    header .menu_wrap nav  {
+        margin: 0;
+    }
+    .section-div {
+        flex-wrap: wrap;
+    }
+    .section-div .left-block {
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+    .section-div .right-block {
+        max-width: 100%;
+    }
+    .section-div .right-block img {
+        max-width: 100%;
+    }
+    .container-block{
+        max-width: 100%;
+    }
+    .bot-bg {
+        height: auto;
+    }
+    .bot-bg .block-flex-wraper {
+        flex-wrap: wrap;
+    }
+    .bot-bg .block {
+        width: 100%;
+    }
+    }
+
+   
